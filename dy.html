@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Name Alert</title>
+    <link rel="stylesheet" href="gh.css" title="" type="" />
+</head>
+<body>
+<div class="container">
+    
+
+    <h2>Enter Your Name
+    (please Type your name don't autofill)</h2>
+
+    <input type="text" id="username" placeholder="Type your name here">
+    <button onclick="showMessage()">Submit</button>
+</div>
+    <script>
+        function showMessage() {
+            let name = document.getElementById("username").value;
+
+            if(name === "Dharsana Devi") {
+                alert("You are placed in a right place that is my heart 🖤");
+            } else {
+                alert("Wrong place");
+            }
+        }
+    </script>
+
+</body>
+</html>
